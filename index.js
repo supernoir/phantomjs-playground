@@ -63,11 +63,7 @@ if (system.args.length > 1) {
   console.log(
     'Usage: phantomjs render_multi_url.js [domain.name1, domain.name2, ...]'
   )
-  arrayOfUrls = [
-    'www.consorsbank.de',
-    'wissen-dev.consorsbank.de',
-    'wissen.consorsbank.de'
-  ]
+  arrayOfUrls = ['www.google.com', 'www.apple.com', 'www.amazon.com']
 }
 
 RenderUrlsToFile(
